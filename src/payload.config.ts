@@ -20,7 +20,7 @@ export default buildConfig({
     user: Users.slug,
     bundler: webpackBundler(),
   },
-  cors: ["*"],
+  cors: "*",
   editor: slateEditor({}),
   collections: [
     Users,
